@@ -1,6 +1,6 @@
 {
   "name": "svelte-as-gun",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Svelte 5 bindings for Gun.js - combining reactive data with declarative templates",
   "author": "kbristol <kbristol.plures.io>",
   "license": "MIT",
@@ -11,7 +11,7 @@
   "module": "./src/mod.ts",
   "exports": {
     ".": "./src/mod.ts",
-    "./runes": "./src/runes.ts", 
+    "./runes": "./src/runes.ts",
     "./actions": "./src/actions.ts",
     "./components": "./src/components.ts"
   },
@@ -38,7 +38,11 @@
     "npm": "deno run -A scripts/npm.ts"
   },
   "compilerOptions": {
-    "lib": ["dom", "deno.ns", "deno.unstable"],
+    "lib": [
+      "dom",
+      "deno.ns",
+      "deno.unstable"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "jsx"
   },
@@ -50,10 +54,14 @@
   },
   "lint": {
     "rules": {
-      "tags": ["recommended"]
+      "tags": [
+        "recommended"
+      ]
     }
   },
   "test": {
-    "include": ["tests/"]
+    "include": [
+      "tests/"
+    ]
   }
-} 
+}

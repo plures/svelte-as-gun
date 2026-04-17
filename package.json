@@ -1,6 +1,6 @@
 {
   "name": "svelte-as-gun",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Svelte bindings for Gun.js with Svelte 4 and 5 compatibility",
   "type": "module",
   "main": "dist/index.js",
