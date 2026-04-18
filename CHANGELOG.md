@@ -1,3 +1,7 @@
+## [0.2.0] — 2026-04-18
+
+- feat(lifecycle v11): smart CI failure handling — infra vs code (5754645)
+
 # Changelog
 
 ## [0.1.1] — 2026-04-17
