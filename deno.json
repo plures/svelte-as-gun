@@ -1,6 +1,6 @@
 {
   "name": "svelte-as-gun",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Svelte 5 bindings for Gun.js - combining reactive data with declarative templates",
   "author": "kbristol <kbristol.plures.io>",
   "license": "MIT",
